@@ -8,7 +8,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/users', function(req, res){
-	res.send('DevOps - strona Users!');
+	res.send('DevOps - strona Services!');
 	console.log('Zażądano strony Users');
 });
 
